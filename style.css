@@ -18,6 +18,12 @@ h1 {
   line-height: auto;
 }
 
+h2 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: auto;
+}
+
 h3 {
   font-size: 40px;
   font-weight: 900;
@@ -154,6 +160,10 @@ button {
   text-align: center;
 }
 
+span {
+  color: #e55473;
+}
+
 /* Hot Deal Section End */
 
 /* Instagram Section Start */
@@ -185,4 +195,23 @@ input {
   padding: 20px 0;
   border: none;
   font-size: 18px;
+}
+
+/* Latest Deals Section End */
+
+/* Footer Section Start */
+footer {
+  color: #ffffff;
+  background-color: #111010;
+  text-align: center;
+  padding: 128px 0 50px 0;
+}
+
+footer > h2,
+footer > p {
+  color: #ffffff;
+}
+
+.copyright-text {
+  color: rgba(255, 255, 255, 0.4);
 }
