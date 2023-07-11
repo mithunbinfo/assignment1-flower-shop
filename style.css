@@ -143,3 +143,15 @@ button {
 }
 
 /* Support Section End */
+
+/* Hot Deal Section Start */
+
+.hot-deal-section {
+  display: flex;
+  padding: 128px 0;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hot Deal Section End */
