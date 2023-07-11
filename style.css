@@ -1,4 +1,5 @@
 /* Universal Section Start */
+
 * {
   padding: 0;
   margin: 0 auto;
@@ -40,6 +41,7 @@ p {
 /* Universal Section End */
 
 /* Header Section Start */
+
 header {
   background-color: rgba(229, 84, 115, 0.15);
 }
@@ -77,6 +79,7 @@ button {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 /* Header Section End */
 
 /* Feature Section Start */
@@ -120,5 +123,23 @@ button {
 }
 
 .feature-flower > h5 {
-  padding: 32px;
+  padding-top: 32px;
+  border-bottom: 3px solid gray;
+  width: 40%;
 }
+
+/* Feature Section End */
+
+/* Support Section Start */
+
+.support-section {
+  display: flex;
+  text-align: center;
+  padding: 44px 0;
+}
+
+.support-section h5 {
+  color: rgba(39, 39, 39, 0.8);
+}
+
+/* Support Section End */
