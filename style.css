@@ -1,13 +1,15 @@
-/* Universal Section Start */
-
+/* ---------- Universal Section Start ---------- */
 * {
   padding: 0;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
 }
+/* ---------- Universal Section End ---------- */
 
+/* ---------- Most Use Tag and Class Start---------- */
 h1,
 h3,
+h4,
 h5 {
   color: #272727;
 }
@@ -15,25 +17,32 @@ h5 {
 h1 {
   font-size: 80px;
   font-weight: 900;
-  line-height: auto;
 }
 
 h2 {
   font-size: 48px;
   font-weight: 900;
-  line-height: auto;
 }
 
 h3 {
   font-size: 40px;
   font-weight: 900;
-  line-height: auto;
+}
+
+h4 {
+  font-size: 35px;
+  font-weight: 700;
 }
 
 h5 {
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 p {
@@ -44,16 +53,14 @@ p {
   padding: 32px 0px;
 }
 
-/* Universal Section End */
-
-/* Header Section Start */
-
-header {
-  background-color: rgba(229, 84, 115, 0.15);
-}
-
-.section {
+.max-width {
   max-width: 1440px;
+}
+/* ---------- Most Use Tag and Class End---------- */
+
+/* ---------- Header Section Start ---------- */
+header {
+  background-color: rgba(229, 84, 115, 0.13);
 }
 
 .banner {
@@ -63,7 +70,7 @@ header {
 
 .banner-left,
 .banner-right {
-  width: 50%;
+  width: 45%;
 }
 
 .banner-left {
@@ -85,11 +92,9 @@ button {
   background-repeat: no-repeat;
   background-position: bottom;
 }
+/* ---------- Header Section End ---------- */
 
-/* Header Section End */
-
-/* Feature Section Start */
-
+/* ---------- Feature Section Start ---------- */
 .feature-section {
   padding: 128px 0;
   text-align: center;
@@ -131,13 +136,11 @@ button {
 .feature-flower > h5 {
   padding-top: 32px;
   border-bottom: 3px solid gray;
-  width: 40%;
+  width: 50%;
 }
+/* ---------- Feature Section End ---------- */
 
-/* Feature Section End */
-
-/* Support Section Start */
-
+/* ---------- Support Section Start ---------- */
 .support-section {
   display: flex;
   text-align: center;
@@ -147,14 +150,12 @@ button {
 .support-section h5 {
   color: rgba(39, 39, 39, 0.8);
 }
+/* ---------- Support Section End ---------- */
 
-/* Support Section End */
-
-/* Hot Deal Section Start */
-
+/* ---------- Hot Deal Section Start ---------- */
 .hot-deal-section {
   display: flex;
-  padding: 128px 0;
+  padding: 220px 0 100px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -163,11 +164,9 @@ button {
 span {
   color: #e55473;
 }
+/* ---------- Hot Deal Section End ---------- */
 
-/* Hot Deal Section End */
-
-/* Instagram Section Start */
-
+/* ---------- Instagram Section Start ---------- */
 .instagram-section {
   text-align: center;
   padding: 128px 0;
@@ -176,11 +175,35 @@ span {
 .instagram-images {
   display: flex;
 }
+/* ---------- Instagram Section End ---------- */
 
-/* Instagram Section End */
+/* ---------- [Extra Section] Read Our Article Start ---------- */
+article {
+  padding: 100px 0 128px;
+}
 
-/* Latest Deals Section Start */
+.article-section > h3 {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
+.articles-list {
+  display: flex;
+  gap: 50px;
+}
+
+p > a {
+  text-decoration: none;
+  color: #e55473;
+}
+
+.article1 > img {
+  height: 284px;
+  width: 445px;
+}
+/* ---------- [Extra Section] Read Our Article End ---------- */
+
+/* ---------- Latest Deals Section Start ---------- */
 .leatest-deal {
   height: 450px;
   background-image: url(./resource/Rectangle9.png);
@@ -189,6 +212,7 @@ span {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-bottom: 128px;
 }
 
 input {
@@ -196,22 +220,26 @@ input {
   border: none;
   font-size: 18px;
 }
+/* ---------- Latest Deals Section End ---------- */
 
-/* Latest Deals Section End */
-
-/* Footer Section Start */
+/* ---------- Footer Section Start ---------- */
 footer {
-  color: #ffffff;
   background-color: #111010;
   text-align: center;
+}
+
+.footer-area {
+  color: #ffffff;
+  background-color: #111010;
   padding: 128px 0 50px 0;
 }
 
-footer > h2,
-footer > p {
+.footer-area > h2,
+.footer-area > p {
   color: #ffffff;
 }
 
 .copyright-text {
   color: rgba(255, 255, 255, 0.4);
 }
+/* ---------- Footer Section End ---------- */
