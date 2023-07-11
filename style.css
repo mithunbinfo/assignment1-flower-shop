@@ -9,20 +9,24 @@ h1,
 h3,
 h5 {
   color: #272727;
-  font-weight: 900;
-  line-height: auto;
 }
 
 h1 {
   font-size: 80px;
+  font-weight: 900;
+  line-height: auto;
 }
 
 h3 {
   font-size: 40px;
+  font-weight: 900;
+  line-height: auto;
 }
 
 h5 {
-  font-size: 35px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
 }
 
 p {
@@ -33,24 +37,15 @@ p {
   padding: 32px 0px;
 }
 
-button {
-  color: #ffffff;
-  font-size: 20px;
-  font-weight: 700;
-  padding: 20px 43px;
-  background-color: #e55473;
-  border: none;
-  border-radius: 8px;
-}
-
-.section {
-  max-width: 1430px;
-}
 /* Universal Section End */
 
 /* Header Section Start */
 header {
   background-color: rgba(229, 84, 115, 0.15);
+}
+
+.section {
+  max-width: 1440px;
 }
 
 .banner {
@@ -67,9 +62,63 @@ header {
   margin: auto 0;
 }
 
+button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 43px;
+  background-color: #e55473;
+  border: none;
+  border-radius: 8px;
+}
+
 .banner-right {
   background-image: url(./resource/pngwing10.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 /* Header Section End */
+
+/* Feature Section Start */
+
+.feature-section {
+  padding: 128px 0;
+  text-align: center;
+}
+
+.feature-top {
+  padding: 24px 0;
+}
+
+.feature-bottom {
+  display: flex;
+  gap: 24px;
+}
+
+.feature-flower-image {
+  height: 428px;
+  width: 310px;
+}
+
+.feature-image-bg1,
+.feature-image-bg2,
+.feature-image-bg3 {
+  padding: 110px 77px 0 77px;
+  border-radius: 300px 300px 0 0;
+}
+
+.feature-image-bg1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+
+.feature-image-bg2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+
+.feature-image-bg3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+
+.feature-flower > h5 {
+  padding: 32px;
+}
