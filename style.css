@@ -166,3 +166,23 @@ button {
 .instagram-images {
   display: flex;
 }
+
+/* Instagram Section End */
+
+/* Latest Deals Section Start */
+
+.leatest-deal {
+  height: 450px;
+  background-image: url(./resource/Rectangle9.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  padding: 20px 0;
+  border: none;
+  font-size: 18px;
+}
